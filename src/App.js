@@ -1,24 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import './Main.scss';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+// import ReactDOM from 'react-dom'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+
+
+import Home from "./pages/Home";
+import NotFound from "./pages/Notfound";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+
+// const element = <FontAwesomeIcon icon={faCoffee} />
+
+// ReactDOM.render(element, document.body)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="About/" element={<Home />} />
+        <Route path="About/*" element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
