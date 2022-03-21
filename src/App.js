@@ -14,6 +14,8 @@ import Home from "./pages/Home";
 import NotFound from "./pages/Notfound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import RepaintingCreation from './pages/RepaintingCreation';
+import Doriano from './pages/Doriano';
 
 
 // const element = <FontAwesomeIcon icon={faCoffee} />
@@ -26,6 +28,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="About/" element={<Home />} />
+        <Route path="About/repaintingcreation" element={<RepaintingCreation />} />
+        <Route path="About/doriano" element={<Doriano />} />
         <Route path="About/*" element={<NotFound />} />
       </Routes>
       <Footer />

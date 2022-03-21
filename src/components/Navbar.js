@@ -6,7 +6,8 @@ export class Navbar extends Component {
     return (
       <section id="header">
 
-			<h1><a href="index.html">Guilherme Gama</a></h1>
+			{/* <h1><Link to="About/">Guilherme Gama</Link></h1> */}
+			<h1 class="headline headline--float">Guilherme Gama</h1>
 
 			<nav id="nav">
 				<ul>
@@ -30,7 +31,7 @@ export class Navbar extends Component {
 							<li><a href="#">Veroeros feugiat</a></li>
 						</ul>
 					</li>
-					<li class="current"><a href="left-sidebar.html">Left Sidebar</a></li>
+					<li><a href="left-sidebar.html">Left Sidebar</a></li>
 					<li><a href="right-sidebar.html">Right Sidebar</a></li>
 					<li><a href="no-sidebar.html">No Sidebar</a></li>
 				</ul>

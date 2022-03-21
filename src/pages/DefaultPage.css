@@ -1,0 +1,16 @@
+.bannerArticle{
+    width: 100%;  
+}
+
+
+.fullWidth{
+    width: 100%;
+}
+
+.halfWidth{
+    width: 50%;
+}
+
+.roundCorners{
+    border-radius: 5px;
+}

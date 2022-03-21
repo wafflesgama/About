@@ -1,6 +1,52 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
+
+
+
+// Utils
+.d-flex{
+    display: flex;
+}
+
+.d-flex-inline{
+    display:inline-flex;
+}
+
+.mt-1{
+    margin-top: 5px  !important;
+}
+.mt-2{
+    margin-top: 10px !important;
+}
+
+.mt-3{
+    margin-top: 15px !important;
+}
+
+.mr-1{
+    margin-right: 5px  !important;
+}
+
+.mr-3{
+    margin-right: 15px  !important;
+}
+
+
+.fullWidth{
+    width: 100%;
+}
+
+.halfWidth{
+    width: 50%;
+}
+
+.roundCorners{
+    border-radius: 5px;
+}
+
+
+
 html,body {
     margin: 0;
     padding: 0;
@@ -27,10 +73,7 @@ html,body {
     // }
     
     
-    .bodyHeader{
-        background: #f7f7f7 !important;
-        
-}
+ 
     
 ol,
 ul {
@@ -2145,15 +2188,14 @@ ul.social li a.fa-google-plus:hover {
     outline: 0;
 }
 
-#nav>ul>li:hover>a,
-#nav>ul>li.active>a {
+#nav>ul>li:hover>a {
     background: #f3f3f3;
 }
 
-#nav>ul>li.current>a {
+#nav>ul>li:active>a {
     background: #d52349;
     color: #fff !important;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .dropotron {
