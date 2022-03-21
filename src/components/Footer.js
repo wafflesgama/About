@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Footer.css"
 
 export class Footer extends Component {
   render() {
@@ -7,9 +8,8 @@ export class Footer extends Component {
 			<div class="container">
 				<div class="row">
 					<div class="col-8 col-12-medium">
-						<section>
 							<header>
-								<h2>Blandit nisl adipiscing</h2>
+								<h1 class="inv">Guilherme Gama</h1>
 							</header>
 							<ul class="dates">
 								<li>
@@ -24,7 +24,7 @@ export class Footer extends Component {
 									<p>Blandit phasellus lorem ipsum dolor tempor sapien tortor hendrerit adipiscing
 										feugiat lorem.</p>
 								</li>
-								<li>
+								{/* <li>
 									<span class="date">Jan <strong>15</strong></span>
 									<h3><a href="#">Magna tempus lorem feugiat</a></h3>
 									<p>Dolore consequat sed phasellus lorem sed etiam nullam dolor etiam sed amet sit
@@ -41,9 +41,8 @@ export class Footer extends Component {
 									<h3><a href="#">Blandit tempus aliquam?</a></h3>
 									<p>Feugiat sed tempus blandit tempus adipiscing nisl lorem ipsum dolor sit amet
 										dolore.</p>
-								</li>
+								</li> */}
 							</ul>
-						</section>
 					</div>
 					
 					
