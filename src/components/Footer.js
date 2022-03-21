@@ -4,7 +4,7 @@ import "./Footer.css"
 export class Footer extends Component {
   render() {
     return (
-      <footer>
+      <footer class="finalFooter">
 			<div class="container">
 				<div class="row">
 					<div class="col-8 col-12-medium">

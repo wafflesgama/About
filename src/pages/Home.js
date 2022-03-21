@@ -1,9 +1,10 @@
 import React from 'react'
+import "./Home.css"
 
 function Home() {
   return (
     <div>
-
+<section id="banner"></section>
       <section id="intro" class="container">
         <div class="row">
           <div class="col-4 col-12-medium">
@@ -45,7 +46,7 @@ function Home() {
 
               <section>
                 <header class="major">
-                  <h2>Recent Works</h2>
+                  <h2 class="bodyHeader">Recent Works</h2>
                 </header>
                 <div class="row">
                   <div class="col-4 col-6-medium col-12-small">
@@ -154,7 +155,7 @@ function Home() {
 
               <section>
                 <header class="major">
-                  <h2>The Blog</h2>
+                  <h2 class="bodyHeader">The Blog</h2>
                 </header>
                 <div class="row">
                   <div class="col-6 col-12-small">
