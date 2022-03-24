@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import './Main.scss';
+import "./pages/DefaultPage.css"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -16,7 +17,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import RepaintingCreation from './pages/RepaintingCreation';
 import Doriano from './pages/Doriano';
-
+import ScrollToTop from './ScrollToTop';
 
 // const element = <FontAwesomeIcon icon={faCoffee} />
 
@@ -26,6 +27,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="About/" element={<Home />} />
         <Route path="About/repaintingcreation" element={<RepaintingCreation />} />

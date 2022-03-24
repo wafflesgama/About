@@ -13,6 +13,18 @@ function Doriano() {
                         desc="aaaa"
                         link="/About/repaintingrecreation"
                     />
+                     <MiniEntry
+                        thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png"
+                        title="titlee"
+                        desc="aaaa"
+                        link="/About/repaintingrecreation"
+                    />
+                     <MiniEntry
+                        thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png"
+                        title="titlee"
+                        desc="aaaa"
+                        link="/About/repaintingrecreation"
+                    />
                 </div>
 
                 <div class="col-8 col-12-medium imp-medium">

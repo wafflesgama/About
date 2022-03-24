@@ -1,6 +1,6 @@
 import React from 'react'
 import MiniEntry from '../components/MiniEntry'
-import "./DefaultPage.css"
+
 
 function RepaintingCreation() {
     return (

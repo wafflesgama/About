@@ -5,49 +5,65 @@
 
 
 // Utils
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.d-flex-inline{
-    display:inline-flex;
+.d-flex-inline {
+    display: inline-flex;
 }
 
-.mt-1{
-    margin-top: 5px  !important;
+.m-0{
+margin: 0;
 }
-.mt-2{
+.p-0{
+    padding: 0;
+}
+
+.mt-1 {
+    margin-top: 5px !important;
+}
+
+.mt-2 {
     margin-top: 10px !important;
 }
 
-.mt-3{
+.mt-3 {
     margin-top: 15px !important;
 }
 
-.mr-1{
-    margin-right: 5px  !important;
+.mr-1 {
+    margin-right: 5px !important;
 }
 
-.mr-3{
-    margin-right: 15px  !important;
+.mr-3 {
+    margin-right: 15px !important;
 }
 
+.mr-5 {
+    margin-right: 25px !important;
+}
 
-.fullWidth{
+.mr-8 {
+    margin-right: 40px !important;
+}
+
+.fullWidth {
     width: 100%;
 }
 
-.halfWidth{
+.halfWidth {
     width: 50%;
 }
 
-.roundCorners{
+.roundCorners {
     border-radius: 5px;
 }
 
 
 
-html,body {
+html,
+body {
     margin: 0;
     padding: 0;
     border: 0;
@@ -69,12 +85,12 @@ html,body {
 // menu,
 // nav,
 // section {
-    //     display: block;
-    // }
-    
-    
- 
-    
+//     display: block;
+// }
+
+
+
+
 ol,
 ul {
     list-style: none;
@@ -1964,92 +1980,6 @@ ul.divided li:first-child {
     padding-top: 0;
 }
 
-/* Social */
-
-ul.social {
-    list-style: none;
-    padding-left: 0;
-    overflow: hidden;
-    cursor: default;
-    margin: 0 0 3.25em 0;
-}
-
-ul.social li {
-    display: inline-block;
-    padding-left: 0;
-    margin-left: 0.75em;
-}
-
-ul.social li:first-child {
-    margin-left: 0;
-}
-
-ul.social li a {
-    display: inline-block;
-    width: 3em;
-    height: 3em;
-    text-align: center;
-    border-radius: 5px;
-    background: #888;
-    -moz-transition: background-color .25s ease-in-out;
-    -webkit-transition: background-color .25s ease-in-out;
-    -ms-transition: background-color .25s ease-in-out;
-    transition: background-color .25s ease-in-out;
-}
-
-ul.social li a:before {
-    color: #fff;
-    font-size: 2em;
-    line-height: 1.5em;
-}
-
-ul.social li a.fa-facebook {
-    background: #3c5a98;
-}
-
-ul.social li a.fa-facebook:hover {
-    background: #4c6aa8;
-}
-
-ul.social li a.fa-twitter {
-    background: #2daae4;
-}
-
-ul.social li a.fa-twitter:hover {
-    background: #3dbaf4;
-}
-
-ul.social li a.fa-dribbble {
-    background: #c4376b;
-}
-
-ul.social li a.fa-dribbble:hover {
-    background: #d4477b;
-}
-
-ul.social li a.fa-linkedin {
-    background: #006599;
-}
-
-ul.social li a.fa-linkedin:hover {
-    background: #1075a9;
-}
-
-ul.social li a.fa-tumblr {
-    background: #2b4661;
-}
-
-ul.social li a.fa-tumblr:hover {
-    background: #3b5671;
-}
-
-ul.social li a.fa-google-plus {
-    background: #da2713;
-}
-
-ul.social li a.fa-google-plus:hover {
-    background: #ea3723;
-}
 
 /* Icons */
 
@@ -2144,7 +2074,7 @@ ul.social li a.fa-google-plus:hover {
     position: relative;
     background: #ffffff;
     border-bottom: solid 1px #ccc;
-    padding: 5em 0 4em 0;
+    padding: 3em 0 2em 0;
     text-align: center;
 }
 
@@ -2255,7 +2185,82 @@ ul.social li a.fa-google-plus:hover {
 #intro {
     text-align: center;
     overflow: hidden;
+    height: 500px;
+    min-width: 0px;
 }
+
+
+.field>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .25s ease-out;
+    background-color: #F7F7F7;
+}
+
+.field>div>img {
+   margin:12px;
+}
+
+.field:hover>div {
+    opacity: 1;
+    padding-top: 10px;;
+}
+
+.fieldIcon {
+    width: 65px;
+    height: auto;
+}
+
+// .field{
+//     transition: all .4s ease-in-out;
+//     overflow: hidden;
+// }
+
+
+
+// .field:hover{
+//     width: 1500px;
+// }
+
+// .field1:hover ~ .field2{
+//     width: 0px;
+// }
+
+// .field1:hover ~ .field3{
+//     width: 0px;
+// }
+
+// .field2:hover ~ .field1{
+//     width: 0px;
+// }
+
+// .field2:hover ~ .field3{
+//     width: 0px;
+// }
+
+
+// .field3:hover ~ .field1{
+//     width: 0px;
+// }
+
+// .field3:hover ~ .field2{
+//     width: 0px;
+// }
+// .field3:hover + .field{
+//     width: 0px;
+// }
 
 #intro section {
     margin: 3em 0;
@@ -2552,9 +2557,9 @@ ul.social li a.fa-google-plus:hover {
 
     /* Nav */
 
-    #nav {
-        display: none;
-    }
+    // #nav {
+    //     display: none;
+    // }
 
     /* Intro */
 

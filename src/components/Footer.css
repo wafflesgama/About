@@ -5,3 +5,122 @@
 .finalFooter{
     background-color: #252526;
 }
+
+
+.footer-links{
+    list-style-type: none;
+    font-weight: 300;
+    padding-left: 0;
+}
+.footer-links>li{
+    margin-bottom: 10px;
+}
+.footer-links>li>a{
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 0px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    /* background-color: rgb(49, 49, 49);     */
+    border-radius: 5px;
+}
+
+.footer-links>li>a:hover{
+    background-color: rgb(95, 95, 95);    
+    
+}
+
+.footerDesc{
+    color: #ebebeb;
+    padding: 0;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+
+
+/* Social */
+
+ul.social {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    cursor: default;
+    margin: 0 0 3.25em 0;
+}
+
+ul.social li {
+    display: inline-block;
+    padding-left: 0;
+    margin-left: 0.75em;
+}
+
+ul.social li:first-child {
+    margin-left: 0;
+}
+
+ul.social li a {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    border-radius: 5px;
+    background: #888;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+    -ms-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+}
+
+ul.social li a:before {
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+ul.social li a.fa-facebook {
+    background: #3c5a98;
+}
+
+
+
+ul.social li a.fa-twitter {
+    background: #2daae4;
+}
+
+ul.social li a.fa-twitter:hover {
+    background: #3dbaf4;
+}
+
+ul.social li a.fa-itch-io {
+    background: #cc195b;
+}
+
+ul.social li a.fa-itch-io:hover {
+    background: #e2427d;
+}
+
+ul.social li a.fa-linkedin-in {
+    background: #006599;
+}
+
+ul.social li a.fa-linkedin-in:hover {
+    background: #1075a9;
+}
+
+ul.social li a.fa-unity {
+    background: #414448;
+}
+
+ul.social li a.fa-unity:hover {
+    background: #54575d;
+}
+
+ul.social li a.fa-github {
+    background: #847e7d;
+}
+
+ul.social li a.fa-github:hover {
+    background: #bababa;
+}

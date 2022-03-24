@@ -2,15 +2,26 @@
     width: 100%;  
 }
 
-
-.fullWidth{
-    width: 100%;
+.box.post{
+  animation: smallFade;
+  animation-duration: 1.5s;
+  margin-bottom: 105px;
 }
 
-.halfWidth{
-    width: 50%;
+.box.entry{
+    animation: smallFade;
+    animation-duration: 1s;
+    margin-bottom: 55px;
 }
 
-.roundCorners{
-    border-radius: 5px;
+@keyframes smallFade {
+    0%{
+        transform: translate(0%,5%);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0%,0%);
+        opacity: 1;
+    }
+    
 }

@@ -5,7 +5,7 @@ import { Link as Link } from 'react-router-dom';
 
 function MiniEntry(props) {
     return (
-        <section class="box">
+        <section class="entry box">
             <a href="articles/repainting.html" class="image featured"><img
                 src={props.thumbnail} alt="" /></a>
             <header>

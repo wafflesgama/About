@@ -10,30 +10,51 @@ function Home() {
       <section id="intro" class="container">
         <div class="row">
           <div class="col-4 col-12-medium">
-            <section class="first animate__animated animate__fadeInUp">
+            <section class="field first animate__animated animate__fadeInUp">
               <i class="icon solid featured fa-code"></i>
               <header>
                 <h2>Software Developer</h2>
               </header>
               <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+              <div>
+                <img class='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/6132/6132221.png' />
+                <img class='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/174/174854.png' />
+                <img class='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/5968/5968292.png' />
+                <img class='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/6132/6132222.png' />
+                <img class='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffile.wikipediam.org%2Fwikipedia%2Fcommons%2Fthumb%2Fa%2Fa3%2F.NET_Logo.svg%2F1200px-.NET_Logo.svg.png&f=1&nofb=1' />
+              </div>
             </section>
           </div>
           <div class="col-4 col-12-medium">
-            <section class="middle animate__animated animate__fadeInUp">
+            <section class="field middle animate__animated animate__fadeInUp">
               <i class="icon solid featured alt fa-gamepad" a="/about"></i>
               <header>
                 <h2>Game Developer</h2>
               </header>
               <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+              <div>
+                <img class='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/5969/5969346.png' />
+                <img class='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kindpng.com%2Fpicc%2Fm%2F134-1340346_transparent-unreal-logo-png-unreal-engine-icon-png.png&f=1&nofb=1' />
+                <img class='fieldIcon' src='https://icons.iconarchive.com/icons/xenatt/the-circle/256/App-Blender-icon.png' />
+                  <img class='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fopengl-1-logo-png-transparent.png&f=1&nofb=1' />
+                  <img class='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3uwib8iif8w1p.cloudfront.net%2Fmegascans%2Ficons%2Fmixer_icon_2048_preview.png&f=1&nofb=1' />
+                <img class='fieldIcon' src='https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Audacity-icon.png' />
+              </div>
             </section>
           </div>
           <div class="col-4 col-12-medium">
-            <section class="last animate__animated animate__fadeInUp">
+            <section class="field last animate__animated animate__fadeInUp">
               <i class="icon solid featured alt2 fa-paint-brush"></i>
               <header>
                 <h2>Technical Artist</h2>
               </header>
               <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+              <div>
+                <img class='fieldIcon' src='https://icons.iconarchive.com/icons/killaaaron/adobe-cc-circles/256/Adobe-Ps-icon.png ' />
+                <img class='fieldIcon' src='https://icons.iconarchive.com/icons/killaaaron/adobe-cc-circles/256/Adobe-Ai-icon.png' />
+                <img class='fieldIcon' src='https://icons.iconarchive.com/icons/killaaaron/adobe-cc-circles/256/Adobe-Ae-icon.png' />
+                <img class='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/5968/5968705.png' />
+              </div>
             </section>
           </div>
         </div>
