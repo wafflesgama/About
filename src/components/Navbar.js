@@ -1,26 +1,28 @@
 import React, { Component } from 'react'
 import { Link as Link } from 'react-router-dom';
 import '../Logo.scss'
+import { useNavigate } from 'react-router-dom';
 
-export class Navbar extends Component {
-	render() {
+
+function Navbar() {
+	let navigate=useNavigate();
 		return (
 			<section id="header">
 
 				{/* <h1><Link to="About/">Guilherme Gama</Link></h1> */}
 				{/* <h1 class="headline headline--float">Guilherme Gama</h1> */}
 				<div class="content">
-					<div className='d-flex-inline content__container'>
-
-						<p class="content__container__text">Guilherme Gama  |</p>
-						<div class="listHider">
-							<ul class="content__container__list">
-								<li>Portefolio</li>
-								<li>Articles</li>
-								<li>Assets</li>
-								<li>Tutorials</li>
-							</ul>
-						</div>
+					<div className='d-flex-inline content__container' >
+							<p class="content__container__text">Guilherme Gama  |</p>
+							<div class="listHider">
+								<ul class="content__container__list">
+									<li>Portefolio</li>
+									<li>Articles</li>
+									<li>Assets</li>
+									<li>Tutorials</li>
+								</ul>
+							</div>
+							<button class="hidden-navLink" onClick={()=> navigate("/About")}/>
 					</div>
 				</div>
 				<nav id="nav">
@@ -54,6 +56,5 @@ export class Navbar extends Component {
 			</section>
 		)
 	}
-}
 
 export default Navbar
