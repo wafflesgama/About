@@ -34,7 +34,7 @@ function Home() {
               <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
               <div>
                 <img class='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/5969/5969346.png' />
-                <img class='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kindpng.com%2Fpicc%2Fm%2F134-1340346_transparent-unreal-logo-png-unreal-engine-icon-png.png&f=1&nofb=1' />
+                <img class='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kindpng.com%2Fpicc%2Fm%2F134-1340346_transparent-unreal-logo-png-unreal-engine-icon-png.png&f=1&nofb=1  ' />
                 <img class='fieldIcon' src='https://icons.iconarchive.com/icons/xenatt/the-circle/256/App-Blender-icon.png' />
                   <img class='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fopengl-1-logo-png-transparent.png&f=1&nofb=1' />
                   <img class='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3uwib8iif8w1p.cloudfront.net%2Fmegascans%2Ficons%2Fmixer_icon_2048_preview.png&f=1&nofb=1' />
@@ -76,15 +76,62 @@ function Home() {
                     <MiniEntry
                       thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png"
                       title="Repainting Creation"
-                      desc="A computer vision & generative art project using Unity and its Visual Effect Graph Package"
+                      desc="A computer vision & generative art project using Unity and its Visual Effect Graph Package."
                       link="/About/repaintingcreation"
                     />
                   </div>
                   <div class="col-4 col-6-medium col-12-small">
                     <MiniEntry
-                      thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png"
+                      thumbnail="https://img.itch.zone/aW1hZ2UvMTMzMjU3OC83NzUxMzI3LmdpZg==/original/RKPL5Q.gif"
                       title="Doriano"
-                      desc="A short game made for FEUP's Digital Games curricular unit"
+                      desc="A 3D Platformer about finding hidden treasures in a unkown island,  made for FEUP's Digital Games Curricular Unit."
+                      link="/About/doriano"
+                    />
+                  </div>
+
+                  <div class="col-4 col-6-medium col-12-small">
+                    <MiniEntry
+                      thumbnail="https://img.itch.zone/aW1nLzMyMjczNjkuZ2lm/347x500/Cgy2jp.gif"
+                      title="LifeSwing"
+                      desc="A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019!"
+                      link="/About/doriano"
+                    />
+                  </div>
+
+                  <div class="col-4 col-6-medium col-12-small">
+                    <MiniEntry
+                      thumbnail="https://github.com/wafflesgama/Soundtor/raw/main/ReadmeFiles/guipreview.gif  "
+                      title="Soundtor"
+                      desc="A generative audio system using Electron.js, Wekinator and Pure Data."
+                      link="/About/doriano"
+                    />
+                  </div>
+
+                  <div class="col-4 col-6-medium col-12-small">
+                    <MiniEntry
+                      thumbnail="https://github.com/wafflesgama/Improvitouch/raw/main/readmeAssets/demoVideo.gif"
+                      title="Improvitouch"
+                      desc="A Computer Audition & Generative Music Project made for mobile devices."
+                      link="/About/doriano"
+                    />
+                  </div>
+
+                  
+                  <div class="col-4 col-6-medium col-12-small">
+                    <MiniEntry
+                      thumbnail="https://img.itch.zone/aW1nLzMyMjczNjkuZ2lm/347x500/Cgy2jp.gif"
+                      title="LifeSwing"
+                      desc="A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019! 😁"
+                      link="/About/doriano"
+                    />
+                  </div>
+
+                  
+                  <div class="col-4 col-6-medium col-12-small">
+                    <MiniEntry
+                      thumbnail="https://img.itch.zone/aW1nLzMyMjczNjkuZ2lm/347x500/Cgy2jp.gif"
+                      title="LifeSwing"
+                      desc="A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019! 😁"
                       link="/About/doriano"
                     />
                   </div>

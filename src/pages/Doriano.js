@@ -5,8 +5,11 @@ function Doriano() {
     return (
         <div class="container mt-3">
             <div class="row">
+    
                 <div class="col-4 col-12-medium">
-
+                <header class="major">
+                  <h2 class="bodyHeader">Related Works</h2>
+                </header>
                     <MiniEntry
                         thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png"
                         title="titlee"
@@ -47,8 +50,8 @@ function Doriano() {
                             integrated into the Master of Multimedia, in FEUP.
                         </p>
 
-                        <h3>Story</h3>
                         <br />
+                        <h2>Story</h2>
                         <p>
                             Doriano, the protagonist, is stranded on this unknown island with his captain and
                             the rest of his crew. The ship has been broken with the storm they faced and now
@@ -56,8 +59,8 @@ function Doriano() {
                             their journey.
                         </p>
 
-                        <h3>Controls</h3>
                         <br />
+                        <h2>Controls</h2>
                         <p>
                             <b> Keyboard/Mouse -</b> WASD to move, Mouse to look, SPACE to jump, LMB to interact and
                             attack
@@ -78,8 +81,8 @@ function Doriano() {
                             and VFX Graph packages were used.
                         </p>
                         <section>
-                            <h3>Project Details</h3>
                             <br />
+                            <h2>Project Details</h2>
                             <p>
                                 All the gameplay and game scripts were implemented from scratch by the developer,
                                 featuring some built-in and external packages like: Cinemachine, New Input System,

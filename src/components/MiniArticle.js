@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link as Link } from 'react-router-dom';
-
+import { useNavigate } from 'react-router-dom';
 
 function MiniArticle(props) {
+  let navigate=useNavigate();
   return (
     <section class="box">
-    <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+    <a href="#" class="image featured"><img class="mini-thumb" src="images/pic08.jpg" alt="" /></a>
     <header>
       <h3>{props.title}</h3>
       <p>Posted {props.date}</p>

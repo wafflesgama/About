@@ -17,8 +17,8 @@ function Navbar() {
 							<div class="listHider">
 								<ul class="content__container__list">
 									<li>Portefolio</li>
-									<li>Articles</li>
-									<li>Assets</li>
+									<li>Games</li>
+									<li>Tools</li>
 									<li>Tutorials</li>
 								</ul>
 							</div>
@@ -27,29 +27,11 @@ function Navbar() {
 				</div>
 				<nav id="nav">
 					<ul>
-						<li><Link to="About/">Home</Link></li>
-						<li>
-							<a href="#">Dropdown</a>
-							<ul>
-								<li><a href="#">Lorem ipsum dolor</a></li>
-								<li><a href="#">Magna phasellus</a></li>
-								<li><a href="#">Etiam dolore nisl</a></li>
-								<li>
-									<a href="#">Phasellus consequat</a>
-									<ul>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-										<li><a href="#">Veroeros feugiat</a></li>
-										<li><a href="#">Nisl sed aliquam</a></li>
-										<li><a href="#">Dolore adipiscing</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Veroeros feugiat</a></li>
-							</ul>
-						</li>
-						<li><a href="left-sidebar.html">Left Sidebar</a></li>
-						<li><a href="right-sidebar.html">Right Sidebar</a></li>
-						<li><a href="no-sidebar.html">No Sidebar</a></li>
+					<li><Link to="About/">Home</Link></li>
+					<li><Link to="About/">Games</Link></li>
+					<li><Link to="About/">Software/Tools</Link></li>
+					<li><Link to="About/">Tutorials</Link></li>
+					<li><Link to="About/">Resume</Link></li>
 					</ul>
 				</nav>
 
