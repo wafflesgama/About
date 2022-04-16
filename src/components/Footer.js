@@ -64,7 +64,7 @@ export class Footer extends Component {
 											<i class="fa-solid fa-envelope mr-1"></i>
 											Mail
 										</h3>
-										<p><a href="#">guilherme_silva_gama@outlook.com</a></p>
+										<p><a href = "mailto: guilherme_silva_gama@outlook.com">guilherme_silva_gama@outlook.com</a></p>
 									</li>
 									{/* <li>
 									<h3 class="inv m-0">Phone</h3>

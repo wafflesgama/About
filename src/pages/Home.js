@@ -15,7 +15,7 @@ function Home() {
               <header>
                 <h2>Software Developer</h2>
               </header>
-              <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+              <p>As Software Dev & Full-stack Engineer I enjoy blueprinting and implementing Web/Desktop Apps using C#, JS/TS and C++</p>
               <div>
                 <img class='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/6132/6132221.png' />
                 <img class='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/174/174854.png' />
@@ -31,7 +31,7 @@ function Home() {
               <header>
                 <h2>Game Developer</h2>
               </header>
-              <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+              <p>As a passionate Game Dev &  Designer I enjoy designing Video-Games, Game-Engine Tools and Interactive Experiences, using Unity and Unreal Engine</p>
               <div>
                 <img class='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/5969/5969346.png' />
                 <img class='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kindpng.com%2Fpicc%2Fm%2F134-1340346_transparent-unreal-logo-png-unreal-engine-icon-png.png&f=1&nofb=1  ' />
@@ -48,7 +48,7 @@ function Home() {
               <header>
                 <h2>Technical Artist</h2>
               </header>
-              <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+              <p>As a Graphic Designer & Technical Artist I enjoy creating aesthetic content for my professional and personal projects using Figma, Photoshop, Blender and many other tools.</p>
               <div>
                 <img class='fieldIcon' src='https://icons.iconarchive.com/icons/killaaaron/adobe-cc-circles/256/Adobe-Ps-icon.png ' />
                 <img class='fieldIcon' src='https://icons.iconarchive.com/icons/killaaaron/adobe-cc-circles/256/Adobe-Ai-icon.png' />
@@ -84,7 +84,7 @@ function Home() {
                     <MiniEntry
                       thumbnail="https://img.itch.zone/aW1hZ2UvMTMzMjU3OC83NzUxMzI3LmdpZg==/original/RKPL5Q.gif"
                       title="Doriano"
-                      desc="A 3D Platformer about finding hidden treasures in a unkown island,  made for FEUP's Digital Games Curricular Unit."
+                      desc="A 3D Platformer about finding hidden treasures in a unknown island,  made for FEUP's Digital Games Curricular Unit."
                       link="/About/doriano"
                     />
                   </div>

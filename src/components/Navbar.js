@@ -11,7 +11,7 @@ function Navbar() {
 
 				{/* <h1><Link to="About/">Guilherme Gama</Link></h1> */}
 				{/* <h1 class="headline headline--float">Guilherme Gama</h1> */}
-				<div class="content">
+				<div class="content non-interac">
 					<div className='d-flex-inline content__container' >
 							<p class="content__container__text">Guilherme Gama  |</p>
 							<div class="listHider">
@@ -28,10 +28,10 @@ function Navbar() {
 				<nav id="nav">
 					<ul>
 					<li><Link to="About/">Home</Link></li>
-					<li><Link to="About/">Games</Link></li>
-					<li><Link to="About/">Software/Tools</Link></li>
-					<li><Link to="About/">Tutorials</Link></li>
-					<li><Link to="About/">Resume</Link></li>
+					<li><Link to="About/Games">Games</Link></li>
+					<li><Link to="About/Tools">Software/Tools</Link></li>
+					<li><Link to="About/Tutorials">Tutorials</Link></li>
+					<li><Link to="About/Resume">Resume</Link></li>
 					</ul>
 				</nav>
 

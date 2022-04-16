@@ -57,6 +57,10 @@
     border-radius: 5px;
 }
 
+.non-interac {
+    pointer-events: none;
+}
+
 html,
 body {
     margin: 0;
@@ -2638,6 +2642,39 @@ ul.divided li:first-child {
 .mini-thumb {
     height: 165px;
     object-fit: cover;
+}
+
+.notfound-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 500px;
+    margin-bottom: 250px;
+    margin-top: 50px;
+}
+
+.notfound-back {
+    height: 500px;
+    background-color: #021924;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 0;
+}
+
+.notfound {
+    z-index: 1;
+    background: url("images/404.png");
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    left: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 // .hidden-navLink:hover {
