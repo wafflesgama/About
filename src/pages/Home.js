@@ -48,7 +48,7 @@ function Home() {
               <header>
                 <h2>Technical Artist</h2>
               </header>
-              <p>As a Graphic Designer & Technical Artist I enjoy creating aesthetic content for my professional and personal projects using Figma, Photoshop, Blender and many other tools.</p>
+              <p>As a Graphic Designer & Technical Artist I enjoy creating aesthetic content for my professional and personal projects using Figma, Photoshop, Blender and many other tools</p>
               <div>
                 <img class='fieldIcon' src='https://icons.iconarchive.com/icons/killaaaron/adobe-cc-circles/256/Adobe-Ps-icon.png ' />
                 <img class='fieldIcon' src='https://icons.iconarchive.com/icons/killaaaron/adobe-cc-circles/256/Adobe-Ai-icon.png' />
