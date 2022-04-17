@@ -1,6 +1,10 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 // Utils
+.font-big {
+    font-size: xx-large !important;
+}
+
 .d-flex {
     display: flex;
 }
@@ -53,12 +57,36 @@
     width: 50%;
 }
 
+.shadow-light {
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .3));
+}
+
+.back-black {
+    background-color: black;
+    border-style: solid;
+    border-width: 15px;
+    border-color: black;
+}
+
 .roundCorners {
     border-radius: 5px;
 }
 
 .non-interac {
     pointer-events: none;
+}
+
+// Layout Utils
+@media screen and (max-width: 736px) {
+    .no-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 736px) {
+    .only-mobile {
+        display: none;
+    }
 }
 
 html,
@@ -1952,7 +1980,7 @@ ul.divided li:first-child {
 #intro {
     text-align: center;
     overflow: hidden;
-    height: 500px;
+    // height: 500px;
     min-width: 0px;
 }
 
@@ -2602,6 +2630,7 @@ ul.divided li:first-child {
     #banner {
         padding: 6em 0;
         margin: 2em 0 0 0;
+        height: 343px !important;
     }
     #banner header {
         padding: 1.5em 1em 1.5em 1em;

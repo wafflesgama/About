@@ -17,6 +17,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import RepaintingCreation from './pages/RepaintingCreation';
 import Doriano from './pages/Doriano';
+import Soundtor from './pages/Soundtor';
 import ScrollToTop from './ScrollToTop';
 
 // const element = <FontAwesomeIcon icon={faCoffee} />
@@ -32,6 +33,7 @@ function App() {
         <Route path="About/" element={<Home />} />
         <Route path="About/repaintingcreation" element={<RepaintingCreation />} />
         <Route path="About/doriano" element={<Doriano />} />
+        <Route path="About/soundtor" element={<Soundtor />} />
         <Route path="About/*" element={<NotFound />} />
       </Routes>
       <Footer />

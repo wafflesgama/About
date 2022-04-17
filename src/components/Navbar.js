@@ -11,7 +11,7 @@ function Navbar() {
 
 				{/* <h1><Link to="About/">Guilherme Gama</Link></h1> */}
 				{/* <h1 class="headline headline--float">Guilherme Gama</h1> */}
-				<div class="content non-interac">
+				<div class="content non-interac no-mobile">
 					<div className='d-flex-inline content__container' >
 							<p class="content__container__text">Guilherme Gama  |</p>
 							<div class="listHider">
@@ -25,6 +25,7 @@ function Navbar() {
 							<button class="hidden-navLink" onClick={()=> navigate("/About")}/>
 					</div>
 				</div>
+					<h1 className='only-mobile font-big'>Guilherme Gama</h1>
 				<nav id="nav">
 					<ul>
 					<li><Link to="About/">Home</Link></li>

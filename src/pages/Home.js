@@ -103,7 +103,7 @@ function Home() {
                       thumbnail="https://github.com/wafflesgama/Soundtor/raw/main/ReadmeFiles/guipreview.gif  "
                       title="Soundtor"
                       desc="A generative audio system using Electron.js, Wekinator and Pure Data."
-                      link="/About/doriano"
+                      link="/About/soundtor"
                     />
                   </div>
 
