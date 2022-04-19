@@ -10,19 +10,19 @@ function Navbar() {
 			<section id="header">
 
 				{/* <h1><Link to="About/">Guilherme Gama</Link></h1> */}
-				{/* <h1 class="headline headline--float">Guilherme Gama</h1> */}
-				<div class="content non-interac no-mobile">
+				{/* <h1 className="headline headline--float">Guilherme Gama</h1> */}
+				<div className="content  no-mobile">
 					<div className='d-flex-inline content__container' >
-							<p class="content__container__text">Guilherme Gama  |</p>
-							<div class="listHider">
-								<ul class="content__container__list">
+							<p className="content__container__text">Guilherme Gama  |</p>
+							<div className="listHider">
+								<ul className="content__container__list">
 									<li>Portefolio</li>
 									<li>Games</li>
 									<li>Tools</li>
 									<li>Tutorials</li>
 								</ul>
 							</div>
-							<button class="hidden-navLink" onClick={()=> navigate("/About")}/>
+							<button className="hidden-navLink" onClick={()=> navigate("/About")}/>
 					</div>
 				</div>
 					<h1 className='only-mobile font-big'>Guilherme Gama</h1>

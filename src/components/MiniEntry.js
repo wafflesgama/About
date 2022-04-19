@@ -7,16 +7,16 @@ import { useNavigate } from 'react-router-dom';
 function MiniEntry(props) {
     let navigate=useNavigate();
     return (
-        <section class="entry box" onClick={()=> navigate(props.link)}>
-            <a class="image featured"><img class="mini-thumb"
+        <section className="entry box" onClick={()=> navigate(props.link)}>
+            <a className="image featured"><img className="mini-thumb"
                 src={props.thumbnail} alt="" /></a>
             <header>
                 <h3>{props.title}</h3>
             </header>
             <p>{props.desc}</p>
             {/* <footer>
-                <ul class="actions">
-                    <li><Link to={props.link} class="button alt">Find out more</Link></li>
+                <ul className="actions">
+                    <li><Link to={props.link} className="button alt">Find out more</Link></li>
                 </ul>
             </footer> */}
         </section>

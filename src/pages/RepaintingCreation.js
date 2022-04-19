@@ -4,9 +4,9 @@ import MiniEntry from '../components/MiniEntry'
 
 function RepaintingCreation() {
     return (
-        <div class="container mt-3">
-            <div class="row">
-                <div class="col-4 col-12-medium">
+        <div className="container mt-3">
+            <div className="row">
+                <div className="col-4 col-12-medium">
 
                     <MiniEntry
                         thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png"
@@ -16,24 +16,32 @@ function RepaintingCreation() {
                     />
                 </div>
 
-                <div class="col-8 col-12-medium imp-medium">
+                <div className="col-8 col-12-medium imp-medium">
 
-                    <article class="box post">
-                        <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+                    <article className="box post">
+                        <a href="#" className="image featured"><img src="images/pic01.jpg" alt="" /></a>
                         <header>
                             <img className='bannerArticle'
                                 src="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/title.png" />
                             <p>A computer vision & generative art project</p>
                         </header>
 
-                        <h3>Context of the work</h3>
+                       
+                        <h2>Context of the work</h2>
                         <p>
                             The following work was developed focusing on the Generative Art and Computer Vision
                             fields and belongs to the first deliverable project of the SDI curricular unit in the
                             FEUP's Master of Multimedia.
                         </p>
+                        <h2>Demo</h2>
+                        Available for Windows x86/x64
+                        <br />
+                        <iframe className='fullWidth roundCorners' src="https://player.vimeo.com/video/700477651" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        <br />
+                        <br />
+
                         <section>
-                            <h3>Introduction</h3>
+                            <h2>Introduction</h2>
                             <p>
                                 A concept that is usually misunderstood is the originality involved in a certain
                                 artwork. As stated in the book "Steal Like an Artist" [1], nothing comes from
@@ -61,7 +69,7 @@ function RepaintingCreation() {
                             </p>
                         </section>
                         <section>
-                            <h3>Technologies</h3>
+                            <h2>Technologies</h2>
                             <p>
                                 The core of this project was developed using the Unity game engine and all logic was
                                 written using the C# programming language. Some external libraries were also used to
@@ -77,7 +85,7 @@ function RepaintingCreation() {
                                 also provides some implementation examples for the facial features detection and
                                 tracking, using the standard 68 points facial landmark model.
                             </p>
-                            <h3>System Behaviour</h3>
+                            <h2>System Behaviour</h2>
                             <p>
                                 This system was designed to be interacted by one subject at time. Although the main
                                 focus of this system is the art generation itself, there three distinct scenes
@@ -102,14 +110,14 @@ function RepaintingCreation() {
                             </p>
 
                             <br />
-                            <a target="_blank" href="https://github.com/wafflesgama/Repainting-Creation/" class="button alt fullWidth">
-                                <i class="fab fa-github mr-1"></i>
+                            <a target="_blank" href="https://github.com/wafflesgama/Repainting-Creation/" className="button alt fullWidth">
+                                <i className="fab fa-github mr-1"></i>
                                 GitHub Project</a>
                             <br />
                             <br />
-                            <a href="https://github.com/wafflesgama/Repainting-Creation/releases/download/v1/Repainting_Creation_v1.zip" class="button fullWidth">
-                                <i class="fas fa-folder mr-1"></i>
-                                Project Demo</a>
+                            <a href="https://github.com/wafflesgama/Repainting-Creation/releases/download/v1/Repainting_Creation_v1.zip" className="button fullWidth">
+                                <i className="fas fa-folder mr-1"></i>
+                                Windows Build V1.0</a>
                         </section>
                     </article>
 

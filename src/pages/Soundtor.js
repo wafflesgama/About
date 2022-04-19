@@ -3,12 +3,12 @@ import MiniEntry from '../components/MiniEntry'
 
 function Doriano() {
     return (
-        <div class="container mt-3">
-            <div class="row">
+        <div className="container mt-3">
+            <div className="row">
 
-                <div class="col-4 col-12-medium">
-                    <header class="major">
-                        <h2 class="bodyHeader">Related Works</h2>
+                <div className="col-4 col-12-medium">
+                    <header className="major">
+                        <h2 className="bodyHeader">Related Works</h2>
                     </header>
                     <MiniEntry
                         thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png"
@@ -30,12 +30,12 @@ function Doriano() {
                     />
                 </div>
 
-                <div class="col-8 col-12-medium imp-medium">
+                <div className="col-8 col-12-medium imp-medium">
 
-                    <article class="box post">
-                        <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+                    <article className="box post">
+                        <a href="#" className="image featured"><img src="images/pic01.jpg" alt="" /></a>
                         <header>
-                            <img class="halfWidth roundCorners back-black shadow-light " src="https://github.com/wafflesgama/Soundtor/raw/main/assets/full_logo_white.png" />
+                            <img className="halfWidth roundCorners back-black shadow-light " src="https://github.com/wafflesgama/Soundtor/raw/main/assets/full_logo_white.png" />
                             <p>A generative audio system using Electron.js, Wekinator and Pure Data</p>
                         </header>
 
@@ -55,7 +55,7 @@ function Doriano() {
                         <h2>Demo</h2>
                         Available for Windows x86/x64 and Mac x64 and arm64
 
-                        <iframe src="https://player.vimeo.com/video/664212521?h=f2fa46042a" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className='fullWidth roundCorners'  src="https://player.vimeo.com/video/664212521?h=f2fa46042a" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                         <br />
                         <h2>Instructions</h2>
                         <p>
@@ -82,19 +82,19 @@ function Doriano() {
                             </p>
 
                             <br />
-                            <a target="_blank" href="https://github.com/wafflesgama/Soundtor/"   class="button alt fullWidth">
-                                <i class="fab fa-github mr-1"></i>
+                            <a target="_blank" href="https://github.com/wafflesgama/Soundtor/"   className="button alt fullWidth">
+                                <i className="fab fa-github mr-1"></i>
                                 GitHub Project</a>
                             <br />
                             <br />
                             <div className='fullWidth d-flex-inline'>
                                 <a href="https://github.com/wafflesgama/Soundtor/releases/download/windows_x86_v1.02/Soundtor-win32-x86.zip"
-                                    class="mr-3 fullWidth button">
-                                    <i class="fab fa-windows mr-1"></i>
+                                    className="mr-3 fullWidth button">
+                                    <i className="fab fa-windows mr-1"></i>
                                     Windows Build v1.02</a>
                                 <a href="https://github.com/wafflesgama/Soundtor/releases/download/v1.0.2/Soundtor-mas-arm64.zip"
-                                    class=" fullWidth button">
-                                    <i class="fab fa-apple mr-1"></i>
+                                    className=" fullWidth button">
+                                    <i className="fab fa-apple mr-1"></i>
                                     Mac Build v1.02</a>
                             </div>
                         </section>
