@@ -1,5 +1,5 @@
 import React from 'react'
-import MiniEntry from '../components/MiniEntry'
+import MiniEntry from '../../components/MiniEntry'
 
 function Doriano() {
     return (

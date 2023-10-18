@@ -15,12 +15,21 @@ import Home from "./pages/Home";
 import NotFound from "./pages/Notfound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import RepaintingCreation from './pages/RepaintingCreation';
-import Doriano from './pages/Doriano';
-import Soundtor from './pages/Soundtor';
 import ScrollToTop from './ScrollToTop';
+
+//Games
+import LifeSwing from './pages/articles/LifeSwing';
+import Doriano from './pages/articles/Doriano';
+import RepaintingCreation from './pages/articles/RepaintingCreation';
+import SpaceDroid from './pages/articles/SpaceDroid';
+
+//Software
+import Soundtor from './pages/articles/Soundtor';
+import Lumisynth from './pages/articles/Lumisynth';
+import Improvitouch from './pages/articles/Improvitouch';
+
+//Other
 import Resume from './pages/Resume';
-import Lumisynth from './pages/Lumisynth';
 
 // const element = <FontAwesomeIcon icon={faCoffee} />
 
@@ -33,11 +42,14 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="About/" element={<Home />} />
-        <Route path="About/repaintingcreation" element={<RepaintingCreation />} />
-        <Route path="About/doriano" element={<Doriano />} />
-        <Route path="About/soundtor" element={<Soundtor />} />
-        <Route path="About/resume" element={<Resume />} />
-        <Route path="About/lumisynth" element={<Lumisynth />} />
+        <Route path="About/RepaintingCreation" element={<RepaintingCreation />} />
+        <Route path="About/lifeswing" element={<LifeSwing />} />
+        <Route path="About/Doriano" element={<Doriano />} />
+        <Route path="About/Soundtor" element={<Soundtor />} />
+        <Route path="About/Resume" element={<Resume />} />
+        <Route path="About/Lumisynth" element={<Lumisynth />} />
+        <Route path="About/SpaceDroid" element={<SpaceDroid />} />
+        <Route path="About/Improvitouch" element={<Improvitouch />} />
         <Route path="About/*" element={<NotFound />} />
       </Routes>
       <Footer />

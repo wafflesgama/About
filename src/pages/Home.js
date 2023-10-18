@@ -21,7 +21,7 @@ function Home() {
                 <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/174/174854.png' />
                 <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/5968/5968292.png' />
                 <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/6132/6132222.png' />
-                <img className='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffile.wikipediam.org%2Fwikipedia%2Fcommons%2Fthumb%2Fa%2Fa3%2F.NET_Logo.svg%2F1200px-.NET_Logo.svg.png&f=1&nofb=1' />
+                <img className='fieldIcon' src='https://i.imgur.com/Fl5f1oQ.png' />
               </div>
             </section>
           </div>
@@ -36,8 +36,8 @@ function Home() {
                 <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/5969/5969346.png' />
                 <img className='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kindpng.com%2Fpicc%2Fm%2F134-1340346_transparent-unreal-logo-png-unreal-engine-icon-png.png&f=1&nofb=1  ' />
                 <img className='fieldIcon' src='https://icons.iconarchive.com/icons/xenatt/the-circle/256/App-Blender-icon.png' />
-                  <img className='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fopengl-1-logo-png-transparent.png&f=1&nofb=1' />
-                  <img className='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3uwib8iif8w1p.cloudfront.net%2Fmegascans%2Ficons%2Fmixer_icon_2048_preview.png&f=1&nofb=1' />
+                <img className='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fopengl-1-logo-png-transparent.png&f=1&nofb=1' />
+                <img className='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3uwib8iif8w1p.cloudfront.net%2Fmegascans%2Ficons%2Fmixer_icon_2048_preview.png&f=1&nofb=1' />
                 <img className='fieldIcon' src='https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Audacity-icon.png' />
               </div>
             </section>
@@ -85,7 +85,7 @@ function Home() {
                       thumbnail="https://img.itch.zone/aW1hZ2UvMTMzMjU3OC83NzUxMzI3LmdpZg==/original/RKPL5Q.gif"
                       title="Doriano"
                       desc="A 3D Platformer about finding hidden treasures in a unknown island,  made for FEUP's Digital Games Curricular Unit."
-                      link="/About/doriano"
+                      link="/About/Doriano"
                     />
                   </div>
 
@@ -94,7 +94,7 @@ function Home() {
                       thumbnail="https://img.itch.zone/aW1nLzMyMjczNjkuZ2lm/347x500/Cgy2jp.gif"
                       title="LifeSwing"
                       desc="A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019!"
-                      link="/About/doriano"
+                      link="/About/lifeswing"
                     />
                   </div>
 
@@ -116,41 +116,25 @@ function Home() {
                     />
                   </div>
 
-                  
+
                   <div className="col-4 col-6-medium col-12-small">
                     <MiniEntry
-                      thumbnail="https://img.itch.zone/aW1nLzMyMjczNjkuZ2lm/347x500/Cgy2jp.gif"
-                      title="LifeSwing"
+                      thumbnail="https://github.com/wafflesgama/LumiSynth/blob/main/ReadmeFiles/wip2.gif?raw=true"
+                      title="Lumisynth"
                       desc="A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019! 😁"
-                      link="/About/doriano"
+                      link="/About/Lumisynth"
                     />
                   </div>
 
-                  
+
                   <div className="col-4 col-6-medium col-12-small">
                     <MiniEntry
                       thumbnail="https://img.itch.zone/aW1nLzMyMjczNjkuZ2lm/347x500/Cgy2jp.gif"
-                      title="LifeSwing"
+                      title="SpaceDroid"
                       desc="A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019! 😁"
-                      link="/About/doriano"
+                      link="/About/SpaceDroid"
                     />
                   </div>
-
-                  {/* <div className="col-4 col-6-medium col-12-small">
-                    <MiniArticle></MiniArticle>
-                  </div>
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniArticle></MiniArticle>
-                  </div>
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniArticle></MiniArticle>
-                  </div>
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniArticle></MiniArticle>
-                  </div>
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniArticle></MiniArticle>
-                  </div> */}
                 </div>
               </section>
 

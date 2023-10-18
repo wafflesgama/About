@@ -1,7 +1,7 @@
 import React from 'react'
-import MiniEntry from '../components/MiniEntry'
+import MiniEntry from '../../components/MiniEntry'
 
-function Doriano() {
+function Lumisynth() {
     return (
         <div className="container mt-3">
             <div className="row">
@@ -165,4 +165,4 @@ function Doriano() {
     )
 }
 
-export default Doriano
+export default Lumisynth
