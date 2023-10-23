@@ -1,0 +1,25 @@
+[{
+        "thumbnail": "https://github.com/wafflesgama/LazyFetcher/raw/main/ReadmeFiles/demo1.gif",
+        "title": "Lazy Fetcher",
+        "desc": "A Unity Tool & Library designed to simplify the construction of 3D environments.",
+        "link": "/About/Tools/LazyFetcher"
+    },
+    {
+        "thumbnail": "https://github.com/wafflesgama/Soundtor/raw/main/ReadmeFiles/guipreview.gif",
+        "title": "Soundtor",
+        "desc": "A generative audio system using Electron.js, Wekinator and Pure Data.",
+        "link": "/About/Tools/Soundtor"
+    },
+    {
+        "thumbnail": "https://github.com/wafflesgama/Improvitouch/raw/main/readmeAssets/demoVideo.gif",
+        "title": "Improvitouch",
+        "desc": "A Computer Audition & Generative Music Project made for mobile devices.",
+        "link": "/About/Tools/Improvitouch"
+    },
+    {
+        "thumbnail": "https://github.com/wafflesgama/LumiSynth/blob/main/ReadmeFiles/wip2.gif?raw=true",
+        "title": "Lumisynth",
+        "desc": "A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019! 😁",
+        "link": "/About/Tools/Lumisynth"
+    }
+]

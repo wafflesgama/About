@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './Main.scss';
 import "./pages/DefaultPage.css"
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -18,15 +18,22 @@ import Footer from "./components/Footer";
 import ScrollToTop from './ScrollToTop';
 
 //Games
-import LifeSwing from './pages/articles/LifeSwing';
-import Doriano from './pages/articles/Doriano';
-import RepaintingCreation from './pages/articles/RepaintingCreation';
-import SpaceDroid from './pages/articles/SpaceDroid';
+import Games from './pages/Games';
+import LifeSwing from './pages/articles/games/LifeSwing';
+import Doriano from './pages/articles/games/Doriano';
+import RepaintingCreation from './pages/articles/games/RepaintingCreation';
+import SpaceDroid from './pages/articles/games/SpaceDroid';
+import TrialJanitor from './pages/articles/games/TrialJanitor';
 
-//Software
-import Soundtor from './pages/articles/Soundtor';
-import Lumisynth from './pages/articles/Lumisynth';
-import Improvitouch from './pages/articles/Improvitouch';
+//Tools
+import Tools from './pages/Tools';
+import Soundtor from './pages/articles/tools/Soundtor';
+import LazyFectcher from './pages/articles/tools/LazyFetcher';
+import Lumisynth from './pages/articles/tools/Lumisynth';
+import Improvitouch from './pages/articles/tools/Improvitouch';
+
+//Tutorials
+import Tutorials from './pages/Tutorials';
 
 //Other
 import Resume from './pages/Resume';
@@ -42,14 +49,25 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="About/" element={<Home />} />
-        <Route path="About/RepaintingCreation" element={<RepaintingCreation />} />
-        <Route path="About/lifeswing" element={<LifeSwing />} />
-        <Route path="About/Doriano" element={<Doriano />} />
-        <Route path="About/Soundtor" element={<Soundtor />} />
+
+        <Route path="About/Games" element={<Games />} />
+        <Route path="About/Games/Doriano" element={<Doriano />} />
+        <Route path="About/Games/SpaceDroid" element={<SpaceDroid />} />
+        <Route path="About/Games/Repaintingcreation" element={<RepaintingCreation />} />
+        <Route path="About/Games/Lifeswing" element={<LifeSwing />} />
+        <Route path="About/Games/TrialJanitor" element={<TrialJanitor />} />
+
+        <Route path="About/Tools" element={<Tools />} />
+        <Route path="About/Tools/Soundtor" element={<Soundtor />} />
+        <Route path="About/Tools/Lumisynth" element={<Lumisynth />} />
+        <Route path="About/Tools/Improvitouch" element={<Improvitouch />} />
+        <Route path="About/Tools/LazyFetcher" element={<LazyFectcher />} />
+
+        <Route path="About/Tutorials" element={<Tutorials />} />
+
         <Route path="About/Resume" element={<Resume />} />
-        <Route path="About/Lumisynth" element={<Lumisynth />} />
-        <Route path="About/SpaceDroid" element={<SpaceDroid />} />
-        <Route path="About/Improvitouch" element={<Improvitouch />} />
+        
+
         <Route path="About/*" element={<NotFound />} />
       </Routes>
       <Footer />

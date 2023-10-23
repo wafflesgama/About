@@ -1,33 +1,26 @@
 import React from 'react'
-import MiniEntry from '../../components/MiniEntry'
+import MiniEntry from '../../../components/MiniEntry'
 
-function LifeSwing() {
+import data from '../../../assets/minientries_games.json'
+import {removeItemsWithMatchingLink, shuffleArray} from '../../../assets/utils.js'
+
+
+function Doriano() {
+    
+    const filteredData = removeItemsWithMatchingLink(data,window.location.href);
+    const shuffledData = shuffleArray(filteredData);
+    const firstSixItems = shuffledData.slice(0, 3);
+
     return (
         <div className="container mt-3">
+
             <div className="row">
-    
                 <div className="col-4 col-12-medium">
-                <header className="major">
-                  <h2 className="bodyHeader">Related Works</h2>
-                </header>
-                    <MiniEntry
-                        thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png"
-                        title="titlee"
-                        desc="aaaa"
-                        link="/About/repaintingrecreation"
-                    />
-                     <MiniEntry
-                        thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png"
-                        title="titlee"
-                        desc="aaaa"
-                        link="/About/repaintingrecreation"
-                    />
-                     <MiniEntry
-                        thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png"
-                        title="titlee"
-                        desc="aaaa"
-                        link="/About/repaintingrecreation"
-                    />
+                    <header className="major">
+                        <h2 className="bodyHeader">Related Works</h2>
+                    </header>
+                    {firstSixItems.map((x, i) => <MiniEntry thumbnail={x.thumbnail} title={x.title} desc={x.desc} link={x.link} />)}
+
                 </div>
 
                 <div className="col-8 col-12-medium imp-medium">
@@ -95,7 +88,7 @@ function LifeSwing() {
 
 
                             <br />
-                            <a target="_blank" href="https://github.com/wafflesgama/Repainting-Creation/"
+                            <a target="_blank" href="https://guilhermesgama.itch.io/doriano"
                                 className="fullWidth button alt">
                                 <i className="fab fa-itch-io mr-1"></i>
                                 Itch.io Page</a>
@@ -120,4 +113,4 @@ function LifeSwing() {
     )
 }
 
-export default LifeSwing
+export default Doriano

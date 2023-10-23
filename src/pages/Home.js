@@ -1,7 +1,21 @@
 import React from 'react'
 import "./Home.css"
 import MiniEntry from '../components/MiniEntry'
-import MiniArticle from '../components/MiniArticle'
+import data_tools from '../assets/minientries_tools.json'
+import data_games from '../assets/minientries_games.json'
+let mergedData = [...data_tools, ...data_games];
+
+function shuffleArray(array) {
+  let shuffledArray = [...array];
+  for (let i = shuffledArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+  }
+  return shuffledArray;
+}
+
+const shuffledData = shuffleArray(mergedData);
+const firstSixItems = shuffledData.slice(0, 6);
 
 function Home() {
   return (
@@ -18,10 +32,11 @@ function Home() {
               <p>As Software Dev & Full-stack Engineer I enjoy blueprinting and implementing Web/Desktop Apps using C#, JS/TS and C++</p>
               <div>
                 <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/6132/6132221.png' />
+                <img className='fieldIcon' src='https://i.imgur.com/Fl5f1oQ.png' />
+                <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/6132/6132222.png' />
+                <img className='fieldIcon' src='https://cdn.bodanius.com/media/1/Z2I134749_arduino_x.png' />
                 <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/174/174854.png' />
                 <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/5968/5968292.png' />
-                <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/6132/6132222.png' />
-                <img className='fieldIcon' src='https://i.imgur.com/Fl5f1oQ.png' />
               </div>
             </section>
           </div>
@@ -35,7 +50,6 @@ function Home() {
               <div>
                 <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/5969/5969346.png' />
                 <img className='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kindpng.com%2Fpicc%2Fm%2F134-1340346_transparent-unreal-logo-png-unreal-engine-icon-png.png&f=1&nofb=1  ' />
-                <img className='fieldIcon' src='https://icons.iconarchive.com/icons/xenatt/the-circle/256/App-Blender-icon.png' />
                 <img className='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fopengl-1-logo-png-transparent.png&f=1&nofb=1' />
                 <img className='fieldIcon' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3uwib8iif8w1p.cloudfront.net%2Fmegascans%2Ficons%2Fmixer_icon_2048_preview.png&f=1&nofb=1' />
                 <img className='fieldIcon' src='https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Audacity-icon.png' />
@@ -54,6 +68,8 @@ function Home() {
                 <img className='fieldIcon' src='https://icons.iconarchive.com/icons/killaaaron/adobe-cc-circles/256/Adobe-Ai-icon.png' />
                 <img className='fieldIcon' src='https://icons.iconarchive.com/icons/killaaaron/adobe-cc-circles/256/Adobe-Ae-icon.png' />
                 <img className='fieldIcon' src='https://cdn-icons-png.flaticon.com/512/5968/5968705.png' />
+                <img className='fieldIcon' src='https://icons.iconarchive.com/icons/xenatt/the-circle/256/App-Blender-icon.png' />
+                <img className='fieldIcon' src='https://upload.wikimedia.org/wikipedia/commons/1/15/Houdini3D_icon.png' />
               </div>
             </section>
           </div>
@@ -72,69 +88,7 @@ function Home() {
                   <h2 className="bodyHeader">Recent Works</h2>
                 </header>
                 <div className="row">
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniEntry
-                      thumbnail="https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/wip2.gif"
-                      title="Repainting Creation"
-                      desc="A computer vision & generative art project using Unity and its Visual Effect Graph Package."
-                      link="/About/repaintingcreation"
-                    />
-                  </div>
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniEntry
-                      thumbnail="https://img.itch.zone/aW1hZ2UvMTMzMjU3OC83NzUxMzI3LmdpZg==/original/RKPL5Q.gif"
-                      title="Doriano"
-                      desc="A 3D Platformer about finding hidden treasures in a unknown island,  made for FEUP's Digital Games Curricular Unit."
-                      link="/About/Doriano"
-                    />
-                  </div>
 
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniEntry
-                      thumbnail="https://img.itch.zone/aW1nLzMyMjczNjkuZ2lm/347x500/Cgy2jp.gif"
-                      title="LifeSwing"
-                      desc="A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019!"
-                      link="/About/lifeswing"
-                    />
-                  </div>
-
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniEntry
-                      thumbnail="https://github.com/wafflesgama/Soundtor/raw/main/ReadmeFiles/guipreview.gif  "
-                      title="Soundtor"
-                      desc="A generative audio system using Electron.js, Wekinator and Pure Data."
-                      link="/About/soundtor"
-                    />
-                  </div>
-
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniEntry
-                      thumbnail="https://github.com/wafflesgama/Improvitouch/raw/main/readmeAssets/demoVideo.gif"
-                      title="Improvitouch"
-                      desc="A Computer Audition & Generative Music Project made for mobile devices."
-                      link="/About/doriano"
-                    />
-                  </div>
-
-
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniEntry
-                      thumbnail="https://github.com/wafflesgama/LumiSynth/blob/main/ReadmeFiles/wip2.gif?raw=true"
-                      title="Lumisynth"
-                      desc="A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019! 😁"
-                      link="/About/Lumisynth"
-                    />
-                  </div>
-
-
-                  <div className="col-4 col-6-medium col-12-small">
-                    <MiniEntry
-                      thumbnail="https://img.itch.zone/aW1nLzMyMjczNjkuZ2lm/347x500/Cgy2jp.gif"
-                      title="SpaceDroid"
-                      desc="A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019! 😁"
-                      link="/About/SpaceDroid"
-                    />
-                  </div>
                 </div>
               </section>
 
@@ -142,40 +96,11 @@ function Home() {
             <div className="col-12">
 
               <section>
-                <header className="major">
-                  <h2 className="bodyHeader">The Blog</h2>
-                </header>
                 <div className="row">
-                  <div className="col-6 col-12-small">
-                    <MiniArticle
-                      title="Aba"
-                      date="31st Jan 2019"
-                      desc="lorem ipsu danim dare tipo das judate dsa sda"
-                      link="/About/repaintingrecreation"
-                    />
-                  </div>
-                  <div className="col-6 col-12-small">
-                    <section className="box">
-                      <a href="#" className="image featured"><img src="images/pic09.jpg" alt="" /></a>
-                      <header>
-                        <h3>Aptent veroeros aliquam</h3>
-                        <p>Posted 45 minutes ago</p>
-                      </header>
-                      <p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros
-                        lorem et blandit adipiscing feugiat phasellus tempus hendrerit, tortor vitae
-                        mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit.
-                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                        inceptos lorem ipsum dolor sit amet.</p>
-                      <footer>
-                        <ul className="actions">
-                          <li><a href="#" className="button icon solid fa-file-alt">Continue
-                            Reading</a></li>
-                          <li><a href="#" className="button alt icon solid fa-comment">33 comments</a>
-                          </li>
-                        </ul>
-                      </footer>
-                    </section>
-                  </div>
+                  {/* {data_games.map((x, i) => <MiniEntry thumbnail={x.thumbnail} title={x.title} desc={x.desc} link={x.link} />)} */}
+                  {firstSixItems.map((x, i) => 
+                  <MiniEntry thumbnail={x.thumbnail} title={x.title} desc={x.desc} link={x.link} />
+                )}
                 </div>
               </section>
 

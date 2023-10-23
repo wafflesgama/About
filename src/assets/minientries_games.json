@@ -1,0 +1,31 @@
+[{
+        "thumbnail": "https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/wip2.gif",
+        "title": "Repainting Creation",
+        "desc": "A computer vision & generative art project using Unity and its Visual Effect Graph Package.",
+        "link": "/About/Games/Repaintingcreation"
+    },
+    {
+        "thumbnail": "https://img.itch.zone/aW1hZ2UvMTMzMjU3OC83NzUxMzI3LmdpZg==/original/RKPL5Q.gif",
+        "title": "Doriano",
+        "desc": "A 3D Platformer about finding hidden treasures in a unknown island,  made for FEUP's Digital Games Curricular Unit.",
+        "link": "/About/Games/Doriano"
+    },
+    {
+        "thumbnail": "https://img.itch.zone/aW1nLzMyMjczNjkuZ2lm/347x500/Cgy2jp.gif",
+        "title": "LifeSwing",
+        "desc": "A 2D 1-bit Puzzle/Platformer. Also known as the winner entry for Level Up Game Jam 2019!",
+        "link": "/About/Games/Lifeswing"
+    },
+    {
+        "thumbnail": "https://s6.gifyu.com/images/S6Dkc.gif",
+        "title": "SpaceDroid",
+        "desc": "A 2D Endless Runner Game for Android. Come explore space like never seen before!",
+        "link": "/About/Games/SpaceDroid"
+    },
+    {
+        "thumbnail": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDJjZ3pmbTRuY25nMHdtOWlvaGVxMzZ0cWFucWh6dzl3bThhMjdhbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AYZHdgRBauRVfl9Csh/giphy.gif",
+        "title": "Trial Janitor",
+        "desc": "A first-person Puzzle Game. Guide students to their classrooms using the latest Cleanex-3000's Portal Creation technology.",
+        "link": "/About/Games/TrialJanitor"
+    }
+]

@@ -1,18 +1,25 @@
 import React from 'react';
-import MiniEntry from '../../components/MiniEntry';
+import MiniEntry from '../../../components/MiniEntry'
+
+
+import data from '../../../assets/minientries_games.json'
+import { removeItemsWithMatchingLink, shuffleArray } from '../../../assets/utils.js'
 
 function RepaintingCreation() {
+  const filteredData = removeItemsWithMatchingLink(data, window.location.href);
+  const shuffledData = shuffleArray(filteredData);
+  const firstSixItems = shuffledData.slice(0, 3);
   return (
     <div className='container mt-3'>
       <div className='row'>
-        <div className='col-4 col-12-medium'>
-          <MiniEntry
-            thumbnail='https://github.com/wafflesgama/Repainting-Creation/raw/main/ReadmeFiles/gallery.png'
-            title='titlee'
-            desc='aaaa'
-            link='/About/repaintingrecreation'
-          />
+        <div className="col-4 col-12-medium">
+          <header className="major">
+            <h2 className="bodyHeader">Related Works</h2>
+          </header>
+          {firstSixItems.map((x, i) => <MiniEntry thumbnail={x.thumbnail} title={x.title} desc={x.desc} link={x.link} />)}
+
         </div>
+
         <div className='col-8 col-12-medium imp-medium'>
           <article className='box post'>
             <a href='#' className='image featured'>

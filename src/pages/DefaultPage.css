@@ -21,6 +21,12 @@
     opacity: .9;
 }
 
+.resume.container {
+    animation: smallFade;
+    animation-duration: 1s;
+    transition: all 0.2s;
+}
+
 @keyframes smallFade {
     0% {
         transform: translate(0%, 5%);
